@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "strickwire";
+  src: url("/src/STRICKWIRE-Regular.otf") format("opentype");
+}
+
+.font-str {
+  font-family: "strickwire", Arial, sans-serif !important;
+}
+
+body {
+  /* overflow: hidden; */
+}
+
+.spinner-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.653);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.spinner {
+  height: 200px;
+  width: 200px;
+}
+
+.content {
+  max-height: 90vh !important;
+  overflow: hidden;
+}
